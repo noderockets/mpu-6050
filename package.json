@@ -1,0 +1,33 @@
+{
+  "name": "noderocket-mpu-6050",
+  "version": "0.1.4",
+  "description": "MPU-6050 drivers for the Raspberry Pi",
+  "author": "tvalletta <tom@vallettas.com>",
+  "contributors": [{
+    "name": "gmdayley",
+    "email": "gabriel.dayley@gmail.com"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noderockets/mpu6050"
+  },
+  "bugs": {
+    "url": "https://github.com/noderockets/mpu6050/issues"
+  },
+  "keywords": [
+    "noderockets",
+    "raspberry pi",
+    "gyroscope",
+    "accelerometer",
+    "mpu6050"
+  ],
+  "dependencies": {
+    "cylon": "*",
+    "cylon-gpio": "*",
+    "cylon-i2c": "*",
+    "cylon-raspi": "*",
+    "mpu6050": "*",
+    "i2c": "*"
+  },
+  "license": "MIT"
+}
