@@ -3,10 +3,16 @@
   "version": "0.1.4",
   "description": "MPU-6050 drivers for the Raspberry Pi",
   "author": "tvalletta <tom@vallettas.com>",
-  "contributors": [{
-    "name": "gmdayley",
-    "email": "gabriel.dayley@gmail.com"
-  }],
+  "engines": {
+    "node": "~0.12.0"
+  },
+  "cpu": ["arm"],
+  "contributors": [
+    {
+      "name": "gmdayley",
+      "email": "gabriel.dayley@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/noderockets/mpu6050"
@@ -26,8 +32,9 @@
     "cylon-gpio": "*",
     "cylon-i2c": "*",
     "cylon-raspi": "*",
+    "i2c": "*",
     "mpu6050": "*",
-    "i2c": "*"
+    "nano": "*"
   },
   "license": "MIT"
 }
